@@ -158,7 +158,8 @@ export default function Portfolio() {
         "Gemini API",
       ],
       demo: null,
-      github: "#",
+      github:
+        "https://github.com/sadid14n/assamese-to-english-voice-translation",
       image: VoiceTranslation,
       gradient: "from-cyan-500 to-blue-500",
     },
@@ -972,7 +973,7 @@ export default function Portfolio() {
                       {project.demo && (
                         <button
                           onClick={() => window.open(project.demo, "_blank")}
-                          className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-lg hover:shadow-lg transition-all"
+                          className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-lg hover:shadow-lg transition-all cursor-pointer"
                         >
                           <ExternalLink size={16} />
                           Live Demo
@@ -985,7 +986,7 @@ export default function Portfolio() {
                       {project.github && (
                         <button
                           onClick={() => window.open(project.github, "_blank")}
-                          className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:border-purple-600 dark:hover:border-cyan-400 transition-all"
+                          className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:border-purple-600 dark:hover:border-cyan-400 transition-all cursor-pointer"
                         >
                           <Github size={16} />
                           Code
