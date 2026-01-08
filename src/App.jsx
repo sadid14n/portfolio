@@ -1,13 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Portfolio from "./pages/PortFolio";
-import Home from "./pages/Home";
+import Portfolio from "../src/pages/PortFolio.jsx";
 
 const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Portfolio />} />
-      <Route path="/home" element={<Home />} />
     </Routes>
   );
 };
