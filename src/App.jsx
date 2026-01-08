@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Portfolio from "../src/pages/PortFolio.jsx";
+import Portfolio from "./pages/PortFolio";
 
 const App = () => {
   return (
